@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filipe Silva - Currículo</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f5efe6;
+      color: #2b2118;
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h1, h2, h3 {
+      font-family: Georgia, serif;
+    }
+    h1 {
+      font-size: 2.6rem;
+      margin: 0;
+    }
+    .cargo {
+      font-size: 1.2rem;
+      color: #8a4b1f;
+      margin: 4px 0 16px;
+    }
+    h2 {
+      border-bottom: 2px solid #8a4b1f;
+      padding-bottom: 6px;
+      margin-top: 48px;
+    }
+    .item {
+      margin-bottom: 24px;
+    }
+    .item h3 {
+      margin: 0;
+      font-size: 1.15rem;
+    }
+    .periodo {
+      color: #6b5a4a;
+      font-size: 0.95rem;
+      margin: 0 0 6px;
+    }
+    .habilidades {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .habilidades li {
+      background: #e8dccb;
+      padding: 4px 14px;
+      border-radius: 999px;
+    }
+    a {
+      color: #8a4b1f;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Filipe Silva</h1>
+      <p class="cargo">Seu cargo ou área de atuação</p>
+      <p>
+        Cidade, Estado<br>
+        <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Sobre mim</h2>
+      <p>
+        Escreva aqui 2 ou 3 frases sobre quem você é, o que faz
+        e o que está buscando.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experiência</h2>
+      <div class="item">
+        <h3>Nome do cargo, Nome da empresa</h3>
+        <p class="periodo">Mês/Ano até Mês/Ano</p>
+        <p>Descreva o que você fazia e o resultado do seu trabalho.</p>
+      </div>
+      <div class="item">
+        <h3>Outro cargo, Outra empresa</h3>
+        <p class="periodo">Mês/Ano até Mês/Ano</p>
+        <p>Descreva suas responsabilidades.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Formação</h2>
+      <div class="item">
+        <h3>Nome do curso, Nome da instituição</h3>
+        <p class="periodo">Ano de início até Ano de conclusão</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <ul class="habilidades">
+        <li>Habilidade 1</li>
+        <li>Habilidade 2</li>
+        <li>Habilidade 3</li>
+        <li>Habilidade 4</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
